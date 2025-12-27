@@ -68,15 +68,11 @@ adb devices
 
 Проект содержит следующие тесты:
 ## Web:
-- 'testPageLoadsSuccessfully' - Проверка загрузки страницы
-- testPriceFilter - Фильтрация по цене
-- testGenderFilter - Фильтрация по полу
-- testBrandFilter - Фильтрация по бренду
-- testSortAscending/Descending - Проверка сортировки
-- testCombinedFilters - Комбинирование фильтров
-- testOpenProductCard - Переход в карточку товара
-- testSortByNewest - Сортировка по новизне
-- testResetFilters - Сброс фильтров 
+- OpenSmartLabMobilePageTest - Проверка загрузки страницы
+- SmartLabMobileUiElementsTest - Проверка основных UI-элементов
+- QuotesDataValidationTest - Проверка котировок
+- NavigationLinksTest - Проверка перехода по ссылке
+- CurrentDateTest - Проверка даты
 ## Mobile:
 - OpenAppTest — Проверка загрузки приложения
 - SearchingTest — Проверка поиска статьи по запросу Java
